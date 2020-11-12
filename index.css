@@ -1,0 +1,178 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+section {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 8%;
+}
+
+.phone {
+    margin-left: 10%;
+    margin-right: -2%;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+#form-part {
+    width: 100%;
+}
+
+.logo img {
+    width: 45%;
+    margin: 5% 0 5% 0;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 132, 255);
+}
+
+#form-container {
+    width: 70%;
+}
+
+form {
+    background-color: white;
+    border: 0.5px solid lightgray;
+}
+
+form div {
+    width: 90%;
+    margin: 0 auto 0 auto;
+}
+
+form div input {
+    outline: none;
+    width: 90%;
+    padding: 3% 0 3% 2%;
+    margin: 0 0 4% 0;
+    border-radius: 5%;
+    font-size: 15px;
+    border: 1px solid lightgray;
+}
+
+.form-btn {
+    width: 91%;
+    padding: 2% 0 2% 0;
+    margin: 0 0 4% 0;
+    border-radius: 5%;
+    border: 1px solid lightgray;
+    color: white;
+    font-weight: 600;
+    background-color: rgb(10, 176, 241);
+}
+
+.apps img {
+    width: 40%;
+}
+
+#hr div {
+    display: inline-block;
+    width: 41%;
+    margin-bottom: 7%;
+}
+
+hr {
+    background-color: lightgray;
+    transform: translateY(4px);
+}
+
+#fb-login-link {
+    margin-bottom: 6%;
+}
+
+.fb-login {
+    color: rgb(0, 68, 255);
+    font-weight: bold;
+}
+
+.fb-login i {
+    margin-right: 1%;
+}
+
+form div:last-of-type {
+    margin-bottom: 6%;
+}
+
+.sign-up {
+    margin-top: 5%;
+    background-color: white;
+    border: 0.5px solid lightgray;
+    padding: 5% 0 5% 0;
+}
+
+.get-app {
+    margin: 5% 0 5% 0;
+}
+
+.apps {
+    margin-top: 5%;
+}
+
+.footer-container {
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+ul {
+    list-style-type: none;
+    color: skyblue;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    display: inline-block;
+    margin-right: 1.5%;
+}
+
+.copy {
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+@media(max-width: 875px) {
+    .phone {
+        display: none;
+    }
+
+    #form-container {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .footer-container {
+        display: grid;
+        grid-template-columns: auto;
+        text-align: center;
+    }
+
+    .copy {
+        margin: 2% 0 2% 0;
+    }
+}
+
+@media(max-width: 450px) {
+    #form-container {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    form,
+    .sign-up {
+        border: 0;
+    }
+
+    .copy {
+        margin: 2% 0 2% 0;
+    }
+}
